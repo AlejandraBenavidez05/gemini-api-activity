@@ -79,3 +79,4 @@ Para ejecutar los scripts, utilice el siguiente comando:
 ```bash
 python3 nombre_del_script.py
 ```
+![alt text](evidencia-ejecución.jpeg)
