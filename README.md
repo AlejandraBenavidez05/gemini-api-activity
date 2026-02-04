@@ -63,7 +63,7 @@ b. Para activar el entorno virtual ejecute el comando adecuado según 
 
   - En Windows (PowerShell): `.\venv\Scripts\Activate.ps1`
 
-  - En macOS y Linux: `source venv/bin/activate`
+  - En macOS y Linux: `source ./venv/bin/activate`
 
 3. *Instalación de Dependencias:*
 

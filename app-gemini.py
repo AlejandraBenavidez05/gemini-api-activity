@@ -12,7 +12,7 @@ def ejecutar_consulta():
     try:
         response = client.models.generate_content(
             model="gemini-3-flash-preview",
-            contents="Preséntate brevemente como un asistente de IA configurado para apoyar el curso de 'Desarrollo de aplicaciones con IA.'"
+            contents="¿Quién es el presidente de Francia?"
         )
         print("\n--- Respuesta Recibida ---")
         print(response.text)
