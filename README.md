@@ -45,7 +45,7 @@ git clone https://github.com/AlejandraBenavidez05/gemini-api.git
 ```
    
 
-b. Ubiquese en el directorio gemini-api/
+b. Ubiquese en el directorio gemini-api-activity/
 
 2. *Crear entorno Virtual (recomendado):*
 Se recomienda utilizar un entorno virtual para evitar conflictos con las dependencias de otros proyectos.   
@@ -54,14 +54,17 @@ a. Puede crear un entorno virtual en el directorio del proyecto con 
 
 ```bash
 python3 -m venv venv 
+```
+```bash
+python -m venv venv 
 ``` 
 
       
 b. Para activar el entorno virtual ejecute el comando adecuado según su sistema operativo.
 
-  - En Windows (cmd): `venv\Scripts\activate.bat`
+  - En Windows (cmd): `venv\Scripts\activate`
 
-  - En Windows (PowerShell): `.\venv\Scripts\Activate.ps1`
+  - En Windows (PowerShell): `.\venv\Scripts\activate`
 
   - En macOS y Linux: `source ./venv/bin/activate`
 
@@ -78,5 +81,8 @@ Esto instalará todas las bibliotecas necesarias para ejecutar el script
 Para ejecutar los scripts, utilice el siguiente comando:
 ```bash
 python3 nombre_del_script.py
+```
+```bash
+python nombre_del_script.py
 ```
 ![alt text](evidencia-ejecución.jpeg)
